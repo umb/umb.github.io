@@ -1,8 +1,78 @@
+<!DOCTYPE html>
 <html>
-  <body>
-  <img  src="umb-wm-rgb-color-pos.svg" style="width: 260px;"/>
-  <h1>UMB GitHub Repository</h1>
-  <h2>UMB Process Solutions </h2>
-</body>
-  <!-- latest update -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UMB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body class="flex flex-col h-screen">
+    <header class="bg-black py-4">
+      <div class="container mx-auto flex">
+        <div class="w-5/12">
+          <img src="assets/umb_logo.svg" class="w-95 h-31" />
+        </div>
+        <div class="hidden lg:block lg:w-2/12 self-center">
+          <img src="assets/creating_time.svg" class="w-148 h-22 mx-auto" />
+        </div>
+      </div>
+    </header>
+
+    <main class="mb-auto">
+      <div class="bg-black flex text-white text-5xl">
+        <div class="w-1/2">
+          <img src="assets/code.jpg" />
+        </div>
+        <div class="w-1/2 p-12">
+          OpenSource from UMB makes developers happy.
+          <span class="block text-yellow" style="line-height: 0">___</span>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="w-1/3">
+          <div class="bg-black text-white text-center text-xl m-4 p-7">
+            <img src="assets/icon_curo.svg" width="125" class="mx-auto" />
+            <div class="font-bold pb-2">Curo</div>
+            <div>
+              Curo is built to enhance your Camunda process app development
+              experience.
+            </div>
+            <a
+              href="https://github.com/umb/curo"
+              target="_blank"
+              class="inline-block btn"
+            >
+              Backend Repository
+            </a>
+            <a
+              href="https://github.com/umb/curo-frontend"
+              target="_blank"
+              class="btn"
+            >
+              Frontend Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black text-white text-sm py-2">
+      <div class="container mx-auto flex">
+        <span class="mr-4">© UMB AG</span>
+        <ul class="text-yellow flex divide-x divide-white">
+          <li class="px-4">
+            <a href="https://www.umb.ch" target="_blank">Website</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

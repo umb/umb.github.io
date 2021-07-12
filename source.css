@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-block rounded bg-yellow text-black m-4 py-2 px-4;
+  }
+}

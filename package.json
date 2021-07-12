@@ -1,0 +1,25 @@
+{
+  "name": "umb.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tailwindcss -i source.css -o main.css --watch",
+    "build": "NODE_ENV=production tailwindcss -i source.css -o main.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umb/umb.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umb/umb.github.io/issues"
+  },
+  "homepage": "https://github.com/umb/umb.github.io#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
